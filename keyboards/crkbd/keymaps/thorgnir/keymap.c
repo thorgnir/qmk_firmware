@@ -99,11 +99,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_RAISE] = LAYOUT(\
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      XXXXXXX, KC_F1,   KC_F4,   KC_F7,   KC_F10, KC_LBRC,                      KC_RBRC, KC_HOME, KC_PSCR, KC_PGUP,  KC_INS,  KC_CAPS,\
+      XXXXXXX, KC_F1,   KC_F4,   KC_F7,   KC_F10, KC_LBRC,                      KC_RBRC, KC_HOME,  KC_UP,   KC_END,  KC_INS,  KC_CAPS,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, KC_F2,   KC_F5,   KC_F8,   KC_F11, KC_LCBR,                      KC_RCBR, KC_LEFT,  KC_UP,   KC_RGHT, XXXXXXX, KC_RGUI,\
+      KC_LCTL, KC_F2,   KC_F5,   KC_F8,   KC_F11, KC_LCBR,                      KC_RCBR, KC_LEFT,  KC_DOWN, KC_RGHT, KC_PGUP, KC_RGUI,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LALT, KC_F3,   KC_F6,   KC_F9,   KC_F12, XXXXXXX,                      XXXXXXX,  KC_END,  KC_DOWN, KC_PGDN, XXXXXXX, KC_RALT,\
+      KC_LALT, KC_F3,   KC_F6,   KC_F9,   KC_F12, XXXXXXX,                      KC_PSCR, XXXXXXX,  XXXXXXX, XXXXXXX, KC_PGDN, KC_RALT,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           _______,_______,_______,     _______, _______, _______\
                                       //`--------------------------'  `--------------------------'
